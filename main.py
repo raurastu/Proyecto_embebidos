@@ -30,3 +30,20 @@ except KeyboardInterrupt:
 GPIO.cleanup()
 client.close()
 server.close()
+
+#~: sudo apt-get remove bluetooth bluez blueman
+#~: sudo apt-get autoclean
+#~: sudo apt-get update
+#~: sudo apt-get upgrade -y
+#~: sudo apt-get autoclean
+#~: sudo reboot
+#~: sudo apt-get install Bluetooth bluez blueman
+#~: sudo apt-get install bluez bluez-firmware
+#~: sudo systemctl daemon-reload
+#~: sudo systemctl restart bluetooth
+#~: sudo usermod -G bluetooth -a pi
+#~: sudo cat /etc/group | grep bluetooth
+#~: sudo reboot
+#~: sudo systemctl status bluetooth
+#~: sudo apt-get install pi-bluetooth
+#~: sudo reboot
